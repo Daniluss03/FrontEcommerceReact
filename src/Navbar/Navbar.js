@@ -13,6 +13,12 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link className='nav-links' to="/Home">Home</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className='nav-links' to="/Crud">Crud</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className='nav-links' to="/Cards">Cards</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

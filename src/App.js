@@ -6,6 +6,7 @@ import Login from './Login/Login';
 import Crud from './crud/crud';
 import Navbar from './Navbar/Navbar';
 import Home from './pages/Homee/Home';
+import CardsTienda from './cardsTienda/cardsTienda'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route exact path="/login"  element={   <Login/>} />
         <Route exact path="/crud" element={<Crud/>} />
         <Route exact path="/Home" element={<Home/>} />
+        <Route exact path="/Cards" element={<CardsTienda/>} />
       </Routes>
     </Router>
   );
