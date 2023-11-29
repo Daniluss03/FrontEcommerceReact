@@ -13,7 +13,7 @@ export const data = [
         description:'RGB',
 		price: 710,
 		quantity_available: 1,
-        status:'sold',
+		category:"Televisor",
 	},
     {
 		product_id: 3,
